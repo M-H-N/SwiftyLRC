@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		D89B5D50694FA3B2478A0402 /* Pods_SwiftyLRC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60354E8301F8A637F1F55259 /* Pods_SwiftyLRC_Tests.framework */; };
+		D8AF3B2B2A58423B0096EAB9 /* lrc-0.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8AF3B2A2A58423B0096EAB9 /* lrc-0.txt */; };
 		DDA4DEE68321C579AB9BA5D9 /* Pods_SwiftyLRC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3235CC760C6847D6CECF261D /* Pods_SwiftyLRC_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3235CC760C6847D6CECF261D /* Pods_SwiftyLRC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLRC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E12FA72C6431F43E9C5952A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3E12FA72C6431F43E9C5952A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		60354E8301F8A637F1F55259 /* Pods_SwiftyLRC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLRC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SwiftyLRC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLRC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +42,13 @@
 		607FACE51AFB9204008FA782 /* SwiftyLRC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLRC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7C3B6B1CAE0DA5BA6335E031 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C3B6B1CAE0DA5BA6335E031 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9675AB779ACB2D2C06297312 /* Pods-SwiftyLRC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLRC_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLRC_Tests/Pods-SwiftyLRC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9FCA33AD10D450EA5AC42640 /* Pods-SwiftyLRC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLRC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLRC_Tests/Pods-SwiftyLRC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7723F5C8508FEC8BA3B2E42 /* Pods-SwiftyLRC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLRC_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLRC_Example/Pods-SwiftyLRC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A80B0393DA5BA35E3A8E7AEC /* Pods-SwiftyLRC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLRC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLRC_Example/Pods-SwiftyLRC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F295C60CE60A424D3B39EF8E /* SwiftyLRC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyLRC.podspec; path = ../SwiftyLRC.podspec; sourceTree = "<group>"; };
+		D8AF3B2A2A58423B0096EAB9 /* lrc-0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lrc-0.txt"; sourceTree = "<group>"; };
+		F295C60CE60A424D3B39EF8E /* SwiftyLRC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyLRC.podspec; path = ../SwiftyLRC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyLRC */ = {
 			isa = PBXGroup;
 			children = (
+				D8AF3B292A5842270096EAB9 /* Files */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -148,6 +151,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D8AF3B292A5842270096EAB9 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF3B2A2A58423B0096EAB9 /* lrc-0.txt */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		E186BD4B88123DBF4B2B4525 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +167,6 @@
 				9FCA33AD10D450EA5AC42640 /* Pods-SwiftyLRC_Tests.debug.xcconfig */,
 				9675AB779ACB2D2C06297312 /* Pods-SwiftyLRC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +223,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LAX97YJCT4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LAX97YJCT4;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				D8AF3B2B2A58423B0096EAB9 /* lrc-0.txt in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -478,13 +492,15 @@
 			baseConfigurationReference = A80B0393DA5BA35E3A8E7AEC /* Pods-SwiftyLRC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAX97YJCT4;
 				INFOPLIST_FILE = SwiftyLRC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +509,15 @@
 			baseConfigurationReference = A7723F5C8508FEC8BA3B2E42 /* Pods-SwiftyLRC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAX97YJCT4;
 				INFOPLIST_FILE = SwiftyLRC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FCA33AD10D450EA5AC42640 /* Pods-SwiftyLRC_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LAX97YJCT4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,11 +535,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyLRC_Example.app/SwiftyLRC_Example";
 			};
 			name = Debug;
@@ -529,16 +549,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9675AB779ACB2D2C06297312 /* Pods-SwiftyLRC_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LAX97YJCT4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyLRC_Example.app/SwiftyLRC_Example";
 			};
 			name = Release;

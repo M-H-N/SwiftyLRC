@@ -1,0 +1,6 @@
+framework module SwiftyLRC {
+  umbrella header "SwiftyLRC-umbrella.h"
+
+  export *
+  module * { export * }
+}

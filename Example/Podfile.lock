@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyLRC (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyLRC (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyLRC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyLRC: 9424948eb5e1fadbd7b1e005e236c15bd520c92f
+
+PODFILE CHECKSUM: f509ed75de807bdfb53fb877c9ba2de7b0a15d91
+
+COCOAPODS: 1.11.3
